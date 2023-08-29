@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+<style>
+ .mydiv{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    left:100px;
+   /*
+    animation-name: myfirstanimation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    */
+    animation: myfirstanimation 2s linear 3s 5 alternate-reverse;
+ }
+
+ @keyframes myfirstanimation{
+    from{
+        background-color: black;
+        font-size: 25px;
+        left: 10px;
+        top: 20px;
+    }
+    to{
+        background-color: red;
+        font: 600;
+        font-size: 20px;
+        left: 100px;
+        border-radius: 20px;
+        top: 100px;
+    }
+ }
+</style>
+</head>
+<body>
+    
+    <div class="mydiv">
+        play with Animation
+    </div>
+</body>
+</html>

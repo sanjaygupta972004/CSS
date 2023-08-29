@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+
+}
+#box3{
+    display: none;
+}
